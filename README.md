@@ -1,2 +1,2 @@
 # NoteIOSApp
-Note and Photo IOS Application
+This is a note management ios application
