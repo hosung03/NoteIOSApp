@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  NoteIOSApp
 //
-//  Created by mac on 2016. 12. 5..
+//  Created by Hosung, Lee on 2016. 12. 5..
 //  Copyright © 2016년 hosung. All rights reserved.
 //
 
@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
+        NoteListDB.copyFile("notelist.sqlite")
         return true
     }
 

@@ -13,6 +13,16 @@
 		04048A511DF60C7B00561744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04048A4F1DF60C7B00561744 /* Main.storyboard */; };
 		04048A531DF60C7B00561744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04048A521DF60C7B00561744 /* Assets.xcassets */; };
 		04048A561DF60C7B00561744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04048A541DF60C7B00561744 /* LaunchScreen.storyboard */; };
+		04048A5E1DF6169900561744 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04048A5D1DF6169900561744 /* NoteTableViewCell.swift */; };
+		04778F3D1E04A12100381A08 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04778F3C1E04A12100381A08 /* LocationSearchTable.swift */; };
+		04A449B41DFF9700004D24E7 /* LocationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A449B31DFF9700004D24E7 /* LocationSearchViewController.swift */; };
+		04E3D4321DFCCCB9006E1E6E /* NoteListDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3D4311DFCCCB9006E1E6E /* NoteListDB.swift */; };
+		04E3D4341DFCCDCC006E1E6E /* NoteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3D4331DFCCDCC006E1E6E /* NoteInfo.swift */; };
+		04E3D43D1DFCD2FB006E1E6E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3D4371DFCD2FB006E1E6E /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04E3D43E1DFCD2FB006E1E6E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3D4391DFCD2FB006E1E6E /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04E3D4401DFCD2FB006E1E6E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3D43C1DFCD2FB006E1E6E /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04E3D4431DFCD5B3006E1E6E /* notelist.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 04E3D4421DFCD5B3006E1E6E /* notelist.sqlite */; };
+		04E3D4461DFCD67B006E1E6E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3D4451DFCD67B006E1E6E /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,20 @@
 		04048A521DF60C7B00561744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04048A551DF60C7B00561744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04048A571DF60C7B00561744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04048A5D1DF6169900561744 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		04778F3C1E04A12100381A08 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSearchTable.swift; path = ../LocationSearchTable.swift; sourceTree = "<group>"; };
+		04A449B31DFF9700004D24E7 /* LocationSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchViewController.swift; sourceTree = "<group>"; };
+		04E3D4311DFCCCB9006E1E6E /* NoteListDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListDB.swift; sourceTree = "<group>"; };
+		04E3D4331DFCCDCC006E1E6E /* NoteInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteInfo.swift; sourceTree = "<group>"; };
+		04E3D4351DFCD2FB006E1E6E /* NoteIOSApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoteIOSApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		04E3D4361DFCD2FB006E1E6E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		04E3D4371DFCD2FB006E1E6E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		04E3D4381DFCD2FB006E1E6E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		04E3D4391DFCD2FB006E1E6E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		04E3D43B1DFCD2FB006E1E6E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = FMDB/FMResultSet.h; sourceTree = "<group>"; };
+		04E3D43C1DFCD2FB006E1E6E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = FMDB/FMResultSet.m; sourceTree = "<group>"; };
+		04E3D4421DFCD5B3006E1E6E /* notelist.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = notelist.sqlite; path = NoteIOSApp/notelist.sqlite; sourceTree = "<group>"; };
+		04E3D4451DFCD67B006E1E6E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E3D4461DFCD67B006E1E6E /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +65,10 @@
 		04048A3D1DF60C7B00561744 = {
 			isa = PBXGroup;
 			children = (
+				04E3D4421DFCD5B3006E1E6E /* notelist.sqlite */,
 				04048A481DF60C7B00561744 /* NoteIOSApp */,
 				04048A471DF60C7B00561744 /* Products */,
+				04E3D4441DFCD67B006E1E6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,43 @@
 		04048A481DF60C7B00561744 /* NoteIOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				04E3D4411DFCD312006E1E6E /* FMDB */,
 				04048A491DF60C7B00561744 /* AppDelegate.swift */,
+				04E3D4331DFCCDCC006E1E6E /* NoteInfo.swift */,
+				04E3D4311DFCCCB9006E1E6E /* NoteListDB.swift */,
+				04048A5D1DF6169900561744 /* NoteTableViewCell.swift */,
 				04048A4B1DF60C7B00561744 /* MasterViewController.swift */,
 				04048A4D1DF60C7B00561744 /* DetailViewController.swift */,
+				04A449B31DFF9700004D24E7 /* LocationSearchViewController.swift */,
+				04778F3C1E04A12100381A08 /* LocationSearchTable.swift */,
 				04048A4F1DF60C7B00561744 /* Main.storyboard */,
 				04048A521DF60C7B00561744 /* Assets.xcassets */,
 				04048A541DF60C7B00561744 /* LaunchScreen.storyboard */,
 				04048A571DF60C7B00561744 /* Info.plist */,
+				04E3D4351DFCD2FB006E1E6E /* NoteIOSApp-Bridging-Header.h */,
 			);
 			path = NoteIOSApp;
+			sourceTree = "<group>";
+		};
+		04E3D4411DFCD312006E1E6E /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				04E3D4361DFCD2FB006E1E6E /* FMDatabase.h */,
+				04E3D4371DFCD2FB006E1E6E /* FMDatabase.m */,
+				04E3D4381DFCD2FB006E1E6E /* FMDatabaseAdditions.h */,
+				04E3D4391DFCD2FB006E1E6E /* FMDatabaseAdditions.m */,
+				04E3D43B1DFCD2FB006E1E6E /* FMResultSet.h */,
+				04E3D43C1DFCD2FB006E1E6E /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		04E3D4441DFCD67B006E1E6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E3D4451DFCD67B006E1E6E /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +154,8 @@
 				TargetAttributes = {
 					04048A451DF60C7B00561744 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 22S9Z5CYHR;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04048A561DF60C7B00561744 /* LaunchScreen.storyboard in Resources */,
+				04E3D4431DFCD5B3006E1E6E /* notelist.sqlite in Resources */,
 				04048A531DF60C7B00561744 /* Assets.xcassets in Resources */,
 				04048A511DF60C7B00561744 /* Main.storyboard in Resources */,
 			);
@@ -140,8 +198,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				04048A4E1DF60C7B00561744 /* DetailViewController.swift in Sources */,
+				04E3D4321DFCCCB9006E1E6E /* NoteListDB.swift in Sources */,
 				04048A4C1DF60C7B00561744 /* MasterViewController.swift in Sources */,
+				04E3D43D1DFCD2FB006E1E6E /* FMDatabase.m in Sources */,
 				04048A4A1DF60C7B00561744 /* AppDelegate.swift in Sources */,
+				04778F3D1E04A12100381A08 /* LocationSearchTable.swift in Sources */,
+				04A449B41DFF9700004D24E7 /* LocationSearchViewController.swift in Sources */,
+				04048A5E1DF6169900561744 /* NoteTableViewCell.swift in Sources */,
+				04E3D4401DFCD2FB006E1E6E /* FMResultSet.m in Sources */,
+				04E3D4341DFCCDCC006E1E6E /* NoteInfo.swift in Sources */,
+				04E3D43E1DFCD2FB006E1E6E /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +330,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 22S9Z5CYHR;
 				INFOPLIST_FILE = NoteIOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hosung.NoteIOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NoteIOSApp/NoteIOSApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,10 +346,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 22S9Z5CYHR;
 				INFOPLIST_FILE = NoteIOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hosung.NoteIOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NoteIOSApp/NoteIOSApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -303,6 +376,7 @@
 				04048A5C1DF60C7B00561744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
