@@ -14,7 +14,7 @@
 		04048A531DF60C7B00561744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04048A521DF60C7B00561744 /* Assets.xcassets */; };
 		04048A561DF60C7B00561744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04048A541DF60C7B00561744 /* LaunchScreen.storyboard */; };
 		04048A5E1DF6169900561744 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04048A5D1DF6169900561744 /* NoteTableViewCell.swift */; };
-		04778F3D1E04A12100381A08 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04778F3C1E04A12100381A08 /* LocationSearchTable.swift */; };
+		045798131ED3210600EF266A /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045798121ED3210600EF266A /* LocationSearchTable.swift */; };
 		04A449B41DFF9700004D24E7 /* LocationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A449B31DFF9700004D24E7 /* LocationSearchViewController.swift */; };
 		04E3D4321DFCCCB9006E1E6E /* NoteListDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3D4311DFCCCB9006E1E6E /* NoteListDB.swift */; };
 		04E3D4341DFCCDCC006E1E6E /* NoteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3D4331DFCCDCC006E1E6E /* NoteInfo.swift */; };
@@ -35,7 +35,7 @@
 		04048A551DF60C7B00561744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04048A571DF60C7B00561744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04048A5D1DF6169900561744 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
-		04778F3C1E04A12100381A08 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSearchTable.swift; path = ../LocationSearchTable.swift; sourceTree = "<group>"; };
+		045798121ED3210600EF266A /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		04A449B31DFF9700004D24E7 /* LocationSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchViewController.swift; sourceTree = "<group>"; };
 		04E3D4311DFCCCB9006E1E6E /* NoteListDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListDB.swift; sourceTree = "<group>"; };
 		04E3D4331DFCCDCC006E1E6E /* NoteInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteInfo.swift; sourceTree = "<group>"; };
@@ -90,8 +90,8 @@
 				04048A5D1DF6169900561744 /* NoteTableViewCell.swift */,
 				04048A4B1DF60C7B00561744 /* MasterViewController.swift */,
 				04048A4D1DF60C7B00561744 /* DetailViewController.swift */,
+				045798121ED3210600EF266A /* LocationSearchTable.swift */,
 				04A449B31DFF9700004D24E7 /* LocationSearchViewController.swift */,
-				04778F3C1E04A12100381A08 /* LocationSearchTable.swift */,
 				04048A4F1DF60C7B00561744 /* Main.storyboard */,
 				04048A521DF60C7B00561744 /* Assets.xcassets */,
 				04048A541DF60C7B00561744 /* LaunchScreen.storyboard */,
@@ -200,9 +200,9 @@
 				04048A4E1DF60C7B00561744 /* DetailViewController.swift in Sources */,
 				04E3D4321DFCCCB9006E1E6E /* NoteListDB.swift in Sources */,
 				04048A4C1DF60C7B00561744 /* MasterViewController.swift in Sources */,
+				045798131ED3210600EF266A /* LocationSearchTable.swift in Sources */,
 				04E3D43D1DFCD2FB006E1E6E /* FMDatabase.m in Sources */,
 				04048A4A1DF60C7B00561744 /* AppDelegate.swift in Sources */,
-				04778F3D1E04A12100381A08 /* LocationSearchTable.swift in Sources */,
 				04A449B41DFF9700004D24E7 /* LocationSearchViewController.swift in Sources */,
 				04048A5E1DF6169900561744 /* NoteTableViewCell.swift in Sources */,
 				04E3D4401DFCD2FB006E1E6E /* FMResultSet.m in Sources */,
