@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "mvMap.showsUserLocation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailViewController.viewDidLoad() -&gt; ():DetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mvMap.showsUserLocation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NoteListDB.getNoteno() -&gt; Int:NoteListDB.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "resultSet.string(forColumn: &quot;noteno&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MasterViewController.prepare(for : UIStoryboardSegue, sender : Any?) -&gt; ():MasterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "MasterViewController.currentIndex">
+            </PersistentString>
+            <PersistentString
+               value = "MasterViewController.arrNoteList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailViewController.viewWillAppear(Bool) -&gt; ():DetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "curNoteInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailViewController.configureView() -&gt; ():DetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "MasterViewController.arrNoteList?.count">
+            </PersistentString>
+            <PersistentString
+               value = "MasterViewController.arrNoteList?[MasterViewController.currentIndex]">
+            </PersistentString>
+            <PersistentString
+               value = "MasterViewController.currentIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LocationSearchViewController.handleTap(gestureReconizer : UILongPressGestureRecognizer) -&gt; ():LocationSearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "locationAddress">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LocationSearchViewController.viewWillDisappear(Bool) -&gt; ():LocationSearchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "detailView">
+            </PersistentString>
+            <PersistentString
+               value = "locationCordinate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MasterViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:MasterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "MasterViewController.arrNoteList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailViewController.locationManager(CLLocationManager, didUpdateLocations : [CLLocation]) -&gt; ():DetailViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MasterViewController.insertNewObject(Any) -&gt; ():MasterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "MasterViewController.arrNoteList?[0]">
+            </PersistentString>
+            <PersistentString
+               value = "MasterViewController.arrNoteList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailViewController.viewWillDisappear(Bool) -&gt; ():DetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "curNoteInfo">
+            </PersistentString>
+            <PersistentString
+               value = "MasterViewController.arrNoteList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
